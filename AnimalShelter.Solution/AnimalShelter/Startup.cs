@@ -38,8 +38,11 @@ namespace AnimalShelter
           });
       });
 
-      services.AddDbContext<AnimalShelterContext>(opt =>
-        opt.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
+      // services.AddDbContext<AnimalShelterContext>(opt =>
+      //   opt.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
+       services.AddEntityFrameworkNpgsql().AddDbContext<AnimalShelterContext>(builder =>
+                builder.UseNpgsql(Configuration["ConnectionStrings:DefaultConnection"], sqlOptions => sqlOptions.MigrationsAssembly(migrationsAssembly)));
+      
       services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
       var appSettingsSection = Configuration.GetSection("AppSettings");

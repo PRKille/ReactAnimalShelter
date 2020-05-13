@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ReactAnimalShelter/static/css/main.9fb032d2.chunk.css",
+    "main.js": "/ReactAnimalShelter/static/js/main.684063bf.chunk.js",
+    "main.js.map": "/ReactAnimalShelter/static/js/main.684063bf.chunk.js.map",
+    "runtime-main.js": "/ReactAnimalShelter/static/js/runtime-main.bf91c5e7.js",
+    "runtime-main.js.map": "/ReactAnimalShelter/static/js/runtime-main.bf91c5e7.js.map",
+    "static/css/2.de424728.chunk.css": "/ReactAnimalShelter/static/css/2.de424728.chunk.css",
+    "static/js/2.8af38b1a.chunk.js": "/ReactAnimalShelter/static/js/2.8af38b1a.chunk.js",
+    "static/js/2.8af38b1a.chunk.js.map": "/ReactAnimalShelter/static/js/2.8af38b1a.chunk.js.map",
+    "index.html": "/ReactAnimalShelter/index.html",
+    "precache-manifest.1308c761d391960af23e380c3bb33655.js": "/ReactAnimalShelter/precache-manifest.1308c761d391960af23e380c3bb33655.js",
+    "service-worker.js": "/ReactAnimalShelter/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/ReactAnimalShelter/static/css/2.de424728.chunk.css.map",
+    "static/css/main.9fb032d2.chunk.css.map": "/ReactAnimalShelter/static/css/main.9fb032d2.chunk.css.map",
+    "static/js/2.8af38b1a.chunk.js.LICENSE.txt": "/ReactAnimalShelter/static/js/2.8af38b1a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf91c5e7.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.8af38b1a.chunk.js",
+    "static/css/main.9fb032d2.chunk.css",
+    "static/js/main.684063bf.chunk.js"
+  ]
+}
